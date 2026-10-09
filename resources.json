@@ -1,0 +1,66 @@
+[
+  {
+    "id": "unitreerobotics-xr_teleoperate",
+    "key": "unitreerobotics/xr_teleoperate",
+    "title": "Unitree XR Teleoperation",
+    "description": "XR-device teleoperation interfaces for Unitree humanoid workflows.",
+    "descriptionTh": "อินเทอร์เฟซอุปกรณ์ XR สำหรับควบคุม Humanoid Unitree ระยะไกล",
+    "categories": [
+      "teleoperation"
+    ],
+    "tags": [
+      "Unitree",
+      "XR",
+      "Teleoperation"
+    ],
+    "source": "upstream",
+    "owner": "unitreerobotics",
+    "url": "https://github.com/unitreerobotics/xr_teleoperate",
+    "upstream": "https://github.com/unitreerobotics/xr_teleoperate",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "OpenTeleVision-TeleVision",
+    "key": "OpenTeleVision/TeleVision",
+    "title": "Open TeleVision",
+    "description": "Immersive teleoperation research with visual feedback.",
+    "descriptionTh": "งานวิจัย Teleoperation แบบ Immersive พร้อม Visual Feedback",
+    "categories": [
+      "teleoperation"
+    ],
+    "tags": [
+      "Teleoperation",
+      "XR",
+      "Research"
+    ],
+    "source": "upstream",
+    "owner": "OpenTeleVision",
+    "url": "https://github.com/OpenTeleVision/TeleVision",
+    "upstream": "https://github.com/OpenTeleVision/TeleVision",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "LeCAR-Lab-human2humanoid",
+    "key": "LeCAR-Lab/human2humanoid",
+    "title": "Human2Humanoid / OmniH2O",
+    "description": "Human-to-humanoid whole-body teleoperation and learning research.",
+    "descriptionTh": "งานวิจัย Teleoperation และ Learning ทั้งร่างกายจากมนุษย์สู่ Humanoid",
+    "categories": [
+      "teleoperation",
+      "research"
+    ],
+    "tags": [
+      "Humanoid",
+      "Teleoperation",
+      "Whole-body"
+    ],
+    "source": "upstream",
+    "owner": "LeCAR-Lab",
+    "url": "https://github.com/LeCAR-Lab/human2humanoid",
+    "upstream": "https://github.com/LeCAR-Lab/human2humanoid",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  }
+]
