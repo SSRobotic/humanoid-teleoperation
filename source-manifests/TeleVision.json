@@ -1,0 +1,1437 @@
+{
+  "slug": "OpenTeleVision/TeleVision",
+  "source_url": "https://github.com/OpenTeleVision/TeleVision",
+  "commit": "e6e25afdb16c1b326b5bf37bd0ae79919bf79f26",
+  "branch": "main",
+  "snapshot": "all tracked file blobs at the pinned commit",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha": "483e65fd4397bb309ac45e02d2b3744dcbc11c1d",
+      "size": 98,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "6fa86e2c1f3d9f8e7c2926883664b5b7bb9506c0",
+      "size": 922,
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "5616a7c7583cf4c753bf9f4512154344964b45ef",
+      "size": 5755,
+      "mode": "100644"
+    },
+    {
+      "path": "act/LICENSE",
+      "sha": "35e5f5e277714ec3b4b69ce573f1aa8a79bad787",
+      "size": 1069,
+      "mode": "100644"
+    },
+    {
+      "path": "act/README.md",
+      "sha": "1f580405f3f1ee776a29d146723c9213e86aa45d",
+      "size": 362,
+      "mode": "100644"
+    },
+    {
+      "path": "act/conda_env.yaml",
+      "sha": "0f44d6b09d93c47971cf7bef83488d68c2c3ba99",
+      "size": 390,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/LICENSE",
+      "sha": "b1395e94b016dd1b95b4c7e3ed493e1d0b342917",
+      "size": 11354,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/README.md",
+      "sha": "500b1b8d01108f8ff99b2c505a58cdd43a546fee",
+      "size": 417,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/main.py",
+      "sha": "ca17adffad8fc57daa11cca8e8b10f0f4005d249",
+      "size": 6355,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/models/__init__.py",
+      "sha": "cc78db109026821ecbf4f6586a6eddc6c277bf67",
+      "size": 278,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/models/backbone.py",
+      "sha": "1ded145d1858f502c88483f4c6c411374621f7a2",
+      "size": 5327,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/models/detr_vae.py",
+      "sha": "b3b3ee0b76fbcecbd4de307b30329e2b1f274454",
+      "size": 13296,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/models/position_encoding.py",
+      "sha": "209d9171f4cf807685f6b4a729df987614bfc765",
+      "size": 3390,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/models/transformer.py",
+      "sha": "f38afd0eb2211b45a980278294a426b3fa82c96f",
+      "size": 12989,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/setup.py",
+      "sha": "55d18c0db74e27a687b6d6e0fb236e1cbb801f20",
+      "size": 221,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/util/__init__.py",
+      "sha": "168f9979a4623806934b0ff1102ac166704e7dec",
+      "size": 71,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/util/box_ops.py",
+      "sha": "9c088e5bacc88ff7217fc971f5db889f5bb45b39",
+      "size": 2561,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/util/misc.py",
+      "sha": "dfa9fb5b8f9e44c98e42aa9bb7275f6fa151472d",
+      "size": 15356,
+      "mode": "100644"
+    },
+    {
+      "path": "act/detr/util/plot_utils.py",
+      "sha": "0f24bed0d3fe4624aeb231ddd02633f2e58e4bff",
+      "size": 4514,
+      "mode": "100644"
+    },
+    {
+      "path": "act/imitate_episodes.py",
+      "sha": "f77197208b08eef3b06ff20262ec9432fcd76c10",
+      "size": 14395,
+      "mode": "100644"
+    },
+    {
+      "path": "act/policy.py",
+      "sha": "ef6061d5ed60863d19696942214333ddd6c26e85",
+      "size": 4860,
+      "mode": "100644"
+    },
+    {
+      "path": "act/utils.py",
+      "sha": "f4de4ab4dbc29fd5247e2136ce4285b764cd6199",
+      "size": 11378,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/CMakeLists.txt",
+      "sha": "30a48868f9069113f2b30efc266ca91150c6c849",
+      "size": 292,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/README.md",
+      "sha": "2454b8ba60d74510b763fa086fc0dbc01578f1ac",
+      "size": 5116,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/launch/check_joint.rviz",
+      "sha": "1eaf8e9f0a9e9849f97426ebd89ecd9c9c1db789",
+      "size": 7254,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/launch/display.launch",
+      "sha": "4ae0a24fa74aea12f0e689f667bddecf9cc69cf7",
+      "size": 507,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/launch/gazebo.launch",
+      "sha": "175edc96ef768816cc55b4d11459800cff0b9fde",
+      "size": 336,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/L_hand_base_link.STL",
+      "sha": "a2f67eead9aba1ec5f4e4f78b6d0a6ed8918b29c",
+      "size": 1448084,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/L_hand_base_link.STL.convex.stl",
+      "sha": "554d9e0378f97bc76d5e00bccdb3ee44fabe43f9",
+      "size": 37776,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link11_L.STL",
+      "sha": "9933a6ce1083723badfbf22087776755ae318b93",
+      "size": 46584,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link11_L.STL.convex.stl",
+      "sha": "2b614e93b5d17c9115df511d5088a41f5ac6b8d2",
+      "size": 9275,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link11_R.STL",
+      "sha": "30817a810af3469520afab935158d05268a63857",
+      "size": 46884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link11_R.STL.convex.stl",
+      "sha": "c4b9bf91cd9b71fc9be7736609141f5207733852",
+      "size": 7903,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link12_L.STL",
+      "sha": "08071d3e6276f4413d4cee318018b11bff8a58ba",
+      "size": 917284,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link12_L.STL.convex.stl",
+      "sha": "c3908b188878a1da764763e4b06856f2d8f1567a",
+      "size": 20722,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link12_R.STL",
+      "sha": "137dbdef74c81d467315004606661eec5f080c52",
+      "size": 921984,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link12_R.STL.convex.stl",
+      "sha": "b77a3e3996acb9bff441b0a0d6fd1cc155125376",
+      "size": 19374,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link13_L.STL",
+      "sha": "03a342581c7f789b176fb10ca41d8d759a372680",
+      "size": 488584,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link13_L.STL.convex.stl",
+      "sha": "cdb22cddb158c2e6c99e4f7b6064dc084f616480",
+      "size": 13279,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link13_R.STL",
+      "sha": "a42829f745e6e21e5b1f6e29461f272d946f76d0",
+      "size": 483284,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link13_R.STL.convex.stl",
+      "sha": "ef56b3df3886a2d44429b81db77b028fe8b011f2",
+      "size": 12826,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link14_L.STL",
+      "sha": "291a14f39315532894fac0e1384149bee91e2194",
+      "size": 155184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link14_L.STL.convex.stl",
+      "sha": "0ce7ba239cd8b31ae1936acad5c2df3d89932552",
+      "size": 15100,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link14_R.STL",
+      "sha": "13f98f89442f302dee9bd8fb10e5ae328477b836",
+      "size": 155584,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link14_R.STL.convex.stl",
+      "sha": "6c5bab6bc989895d25f6de3bf4304284612cbc64",
+      "size": 15036,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link15_L.STL",
+      "sha": "f899431182b9f5ae3e69f89d2a765bf2b7454df9",
+      "size": 407184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link15_L.STL.convex.stl",
+      "sha": "c3a0b56bfa3ecdc7d051e4230abd565ca487d287",
+      "size": 15169,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link15_R.STL",
+      "sha": "cbfc7110e2ec9d422707f8d64dcd92832617fe37",
+      "size": 411884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link15_R.STL.convex.stl",
+      "sha": "3b1d03664b2df437c0e2fb5764fced8b9f3161ca",
+      "size": 14348,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link16_L.STL",
+      "sha": "24a5a83d8ea4250db34746ab8d0d0904367929e1",
+      "size": 329384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link16_L.STL.convex.stl",
+      "sha": "0af258c86db02149bfa41cc31c83d59faca7b551",
+      "size": 15239,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link16_R.STL",
+      "sha": "0cf0f8d1d9940fe4df85ad7362ea1e5fe447cba5",
+      "size": 335484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link16_R.STL.convex.stl",
+      "sha": "29915891bec8dcd1c6a9f77c68675927b08029f2",
+      "size": 15144,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link17_L.STL",
+      "sha": "8f0aca60e276609a2cb26241af2cce6e50a4b0e4",
+      "size": 407184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link17_L.STL.convex.stl",
+      "sha": "2d8b7ae191da3b77008754976b994303f36b767c",
+      "size": 15161,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link17_R.STL",
+      "sha": "3f630a3034b54e87fe7d8ef31e69e790808ae30a",
+      "size": 411884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link17_R.STL.convex.stl",
+      "sha": "d2327d5a94615dbc05d3eebe9b5976e88b734213",
+      "size": 14307,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link18_L.STL",
+      "sha": "c498cd75cf11e77e1f7bb45a281d497b9ab8991d",
+      "size": 182684,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link18_L.STL.convex.stl",
+      "sha": "aa109fa30769c55ceccb28f607410a42425f13da",
+      "size": 14816,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link18_R.STL",
+      "sha": "ebc2616fd29e00ebae9443177e8c8a5416680a72",
+      "size": 182984,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link18_R.STL.convex.stl",
+      "sha": "3b16fa2fb65b6f600d7fea84d1e197f82af2b294",
+      "size": 14726,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link19_L.STL",
+      "sha": "c3cabb9268c4e896179deac2df0e82c61aa33c45",
+      "size": 407184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link19_L.STL.convex.stl",
+      "sha": "c2e5dae7080385e811f546cdb49397c6a688f017",
+      "size": 15169,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link19_R.STL",
+      "sha": "5c3703ec21f9e59fb6ca799952b8892789262197",
+      "size": 411884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link19_R.STL.convex.stl",
+      "sha": "d2327d5a94615dbc05d3eebe9b5976e88b734213",
+      "size": 14307,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link20_L.STL",
+      "sha": "23c4efa5ac2b0bf45d3deff1d3c9bc0f41985652",
+      "size": 329484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link20_L.STL.convex.stl",
+      "sha": "7cc68a4c42e8a39e98e15a59f00e8a8df2fba216",
+      "size": 15247,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link20_R.STL",
+      "sha": "5fed852fb99f8dd6fd1a834072dd4ef6cfa52590",
+      "size": 334784,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link20_R.STL.convex.stl",
+      "sha": "a957587846733c99e4e24fd25ee29622bd2cc018",
+      "size": 15164,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link21_L.STL",
+      "sha": "ccb63bfc6b35d7ad46e7ea0444c694137dc70cf1",
+      "size": 407184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link21_L.STL.convex.stl",
+      "sha": "800f2f797ccd60a02ea6031e7227285437f2f886",
+      "size": 15169,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link21_R.STL",
+      "sha": "d4710f126083ab138a82f0b52f27c02d107c79b9",
+      "size": 411884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link21_R.STL.convex.stl",
+      "sha": "d2327d5a94615dbc05d3eebe9b5976e88b734213",
+      "size": 14307,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link22_L.STL",
+      "sha": "6b9cdaddf4876c9bcce9a20d53b90b65aeee1ddd",
+      "size": 413384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link22_L.STL.convex.stl",
+      "sha": "8b3908ee2b0774958414b678fabdd098745296dd",
+      "size": 16533,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link22_R.STL",
+      "sha": "c2cf58b3d22f64adc41934b2d4c2d13f1b0dc3e4",
+      "size": 416484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/Link22_R.STL.convex.stl",
+      "sha": "f3bd51b7ae7fe110040aff5e0746f1cd6175e022",
+      "size": 16418,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/R_hand_base_link.STL",
+      "sha": "3478a981c4c0c6177e624cc14b3a30280da13590",
+      "size": 1472384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/R_hand_base_link.STL.convex.stl",
+      "sha": "fb48c1274fc4dc3e466c00a9bcb6b7db73f94a51",
+      "size": 39719,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_ankle_pitch_link.STL",
+      "sha": "827fb2cba13025cdfa2b2f428dbdd0f88e9ebf24",
+      "size": 34084,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_ankle_pitch_link.STL.convex.stl",
+      "sha": "af9981d925072e854660da6de336b83d22720656",
+      "size": 5738,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_ankle_roll_link.STL",
+      "sha": "83e7de14666ec39325e1f195313f2ee50f8f117b",
+      "size": 829884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_ankle_roll_link.STL.convex.stl",
+      "sha": "a69d9897d5ac7f370e9a6ba434a32edc2bafef14",
+      "size": 51835,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_elbow_pitch_link.STL",
+      "sha": "47ae65c7074a2678656900895896d94c132a78c2",
+      "size": 1025584,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_elbow_pitch_link.STL.convex.stl",
+      "sha": "797f69f27e9f76782a0776f41059ce29c57d6004",
+      "size": 49185,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_elbow_roll_link.STL",
+      "sha": "112437b44a897ac1ad16d01b07c6654869d2b4e1",
+      "size": 1243084,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_elbow_roll_link.STL.convex.stl",
+      "sha": "280b9cbbeb20a0ccee8da816b07fc77803af0bd0",
+      "size": 22934,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_hand_link.STL",
+      "sha": "6ce2dcf6e79ec4e814ff262c89cfaeab4722f09b",
+      "size": 147684,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_hip_pitch_link.STL",
+      "sha": "e5898ab498d663eeaf261daae7b9beb9ac37d843",
+      "size": 452384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_hip_roll_link.STL",
+      "sha": "5ade02bc0c560abaddfbf952589ec59891fa346e",
+      "size": 769284,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_hip_yaw_link.STL",
+      "sha": "3bcc4b8730b10e12c9be3d8b2b9b3409980221c5",
+      "size": 885884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_knee_link.STL",
+      "sha": "e470aee7768bf96f44334128c3084bc4178be2bc",
+      "size": 451384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_shoulder_pitch_link.STL",
+      "sha": "be81370b2252d2e6b1799828d7c45db91442b867",
+      "size": 787484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_shoulder_roll_link.STL",
+      "sha": "a59bb640fdbd932c6eba299ef5d3ed63994ea524",
+      "size": 903384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_shoulder_yaw_link.STL",
+      "sha": "01d3c75b2246df403f5d4a81b034067b58952107",
+      "size": 644184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_wrist_pitch_link.STL",
+      "sha": "83d6d87da2869a3625d51cc4d4e71382be9d9671",
+      "size": 630184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/left_wrist_pitch_link.STL.convex.stl",
+      "sha": "b59b9d6d9a5dcd5d2e966bf1bbdebe9796ceabf5",
+      "size": 27871,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/logo_link.STL",
+      "sha": "c396d51d80a93035ed399e4762de83ba2c2d0874",
+      "size": 145484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/pelvis.STL",
+      "sha": "05e5512c79bbee0a324d401b1bfd40441b660c94",
+      "size": 672884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_ankle_pitch_link.STL",
+      "sha": "827fb2cba13025cdfa2b2f428dbdd0f88e9ebf24",
+      "size": 34084,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_ankle_pitch_link.STL.convex.stl",
+      "sha": "af9981d925072e854660da6de336b83d22720656",
+      "size": 5738,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_ankle_roll_link.STL",
+      "sha": "83e7de14666ec39325e1f195313f2ee50f8f117b",
+      "size": 829884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_ankle_roll_link.STL.convex.stl",
+      "sha": "a69d9897d5ac7f370e9a6ba434a32edc2bafef14",
+      "size": 51835,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_elbow_pitch_link.STL",
+      "sha": "360fb7f05c2eca8eb06abbb60a712a45edde7f11",
+      "size": 1025384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_elbow_pitch_link.STL.convex.stl",
+      "sha": "5656f6b995acc7246cb03859982c36280b2a61d0",
+      "size": 49091,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_elbow_roll_link.STL",
+      "sha": "5f7f2283e173570acacce600370872ab161cbfcd",
+      "size": 1242984,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_elbow_roll_link.STL.convex.stl",
+      "sha": "213ba5fda625fe129faf92b727a77c2e283711c3",
+      "size": 23750,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_hand_link.STL",
+      "sha": "6ce2dcf6e79ec4e814ff262c89cfaeab4722f09b",
+      "size": 147684,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_hip_pitch_link.STL",
+      "sha": "1d4e515c1479609d2fb7c17fd2069a6d2487dd6d",
+      "size": 452384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_hip_roll_link.STL",
+      "sha": "d2a0af9bb69888d159134451dd1c3fc5075689c8",
+      "size": 768484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_hip_yaw_link.STL",
+      "sha": "6c8ffd59e6b80a710b7770248e357788b04059f9",
+      "size": 884484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_knee_link.STL",
+      "sha": "e470aee7768bf96f44334128c3084bc4178be2bc",
+      "size": 451384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_shoulder_pitch_link.STL",
+      "sha": "f77ab2b8b8a67d83c8960df0a75479f5b8471fa9",
+      "size": 788484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_shoulder_roll_link.STL",
+      "sha": "a98398f9edcef9fd01ed91c3304e7610e5ab08e7",
+      "size": 908284,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_shoulder_yaw_link.STL",
+      "sha": "7943bab36d5f85416942ea4e682ca6453612b4b7",
+      "size": 646884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_wrist_pitch_link.STL",
+      "sha": "f21d1f028e9552c863a46ab9e90b2ce3a461e10c",
+      "size": 630184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/right_wrist_pitch_link.STL.convex.stl",
+      "sha": "cd59585c693c4f56683beddea8777e7f773f797b",
+      "size": 27029,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/torso_link.STL",
+      "sha": "649d870e723c8143ef75db93afd7cfb9c56176ca",
+      "size": 2340384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/wrist_yaw_link.STL",
+      "sha": "eaff5db116c4cbb700077ca3ca107217109e62cc",
+      "size": 224484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/meshes/wrist_yaw_link.STL.convex.stl",
+      "sha": "9b54beb399cba4151482a587421e250c19718240",
+      "size": 13672,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/package.xml",
+      "sha": "b1e40a82faa435fd3d9be965dd5b2c581406c021",
+      "size": 470,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/urdf/h1_inspire.urdf",
+      "sha": "ac62a9218d8db6e6f1870262295a8f3da0e70f49",
+      "size": 68148,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/urdf/h1_inspire_fixed_torso.urdf",
+      "sha": "31ad85abf503677337543725ad5fdd06bfc9a3ef",
+      "size": 68702,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/h1_inspire/urdf/h1_inspire_nolimit.urdf",
+      "sha": "2fdafe0bcb2bd706b00778cb184c97ec5e89dc9f",
+      "size": 68834,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/inspire_hand_left.urdf",
+      "sha": "86299b3ae1582bcd850472efb2b4c808baae4df6",
+      "size": 18982,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/inspire_hand_right.urdf",
+      "sha": "8b9101a6f2c5dd91c95e3155fec07b881ba83643",
+      "size": 17843,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/L_hand_base_link.STL",
+      "sha": "a2f67eead9aba1ec5f4e4f78b6d0a6ed8918b29c",
+      "size": 1448084,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/L_hand_base_link.STL.convex.stl",
+      "sha": "554d9e0378f97bc76d5e00bccdb3ee44fabe43f9",
+      "size": 37776,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link11_L.STL",
+      "sha": "9933a6ce1083723badfbf22087776755ae318b93",
+      "size": 46584,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link11_L.STL.convex.stl",
+      "sha": "2b614e93b5d17c9115df511d5088a41f5ac6b8d2",
+      "size": 9275,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link11_R.STL",
+      "sha": "30817a810af3469520afab935158d05268a63857",
+      "size": 46884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link11_R.STL.convex.stl",
+      "sha": "c4b9bf91cd9b71fc9be7736609141f5207733852",
+      "size": 7903,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link12_L.STL",
+      "sha": "08071d3e6276f4413d4cee318018b11bff8a58ba",
+      "size": 917284,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link12_L.STL.convex.stl",
+      "sha": "c3908b188878a1da764763e4b06856f2d8f1567a",
+      "size": 20722,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link12_R.STL",
+      "sha": "137dbdef74c81d467315004606661eec5f080c52",
+      "size": 921984,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link12_R.STL.convex.stl",
+      "sha": "b77a3e3996acb9bff441b0a0d6fd1cc155125376",
+      "size": 19374,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link13_L.STL",
+      "sha": "03a342581c7f789b176fb10ca41d8d759a372680",
+      "size": 488584,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link13_L.STL.convex.stl",
+      "sha": "cdb22cddb158c2e6c99e4f7b6064dc084f616480",
+      "size": 13279,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link13_R.STL",
+      "sha": "a42829f745e6e21e5b1f6e29461f272d946f76d0",
+      "size": 483284,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link13_R.STL.convex.stl",
+      "sha": "ef56b3df3886a2d44429b81db77b028fe8b011f2",
+      "size": 12826,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link14_L.STL",
+      "sha": "291a14f39315532894fac0e1384149bee91e2194",
+      "size": 155184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link14_L.STL.convex.stl",
+      "sha": "0ce7ba239cd8b31ae1936acad5c2df3d89932552",
+      "size": 15100,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link14_R.STL",
+      "sha": "13f98f89442f302dee9bd8fb10e5ae328477b836",
+      "size": 155584,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link14_R.STL.convex.stl",
+      "sha": "6c5bab6bc989895d25f6de3bf4304284612cbc64",
+      "size": 15036,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link15_L.STL",
+      "sha": "f899431182b9f5ae3e69f89d2a765bf2b7454df9",
+      "size": 407184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link15_L.STL.convex.stl",
+      "sha": "c3a0b56bfa3ecdc7d051e4230abd565ca487d287",
+      "size": 15169,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link15_R.STL",
+      "sha": "cbfc7110e2ec9d422707f8d64dcd92832617fe37",
+      "size": 411884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link15_R.STL.convex.stl",
+      "sha": "3b1d03664b2df437c0e2fb5764fced8b9f3161ca",
+      "size": 14348,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link16_L.STL",
+      "sha": "24a5a83d8ea4250db34746ab8d0d0904367929e1",
+      "size": 329384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link16_L.STL.convex.stl",
+      "sha": "0af258c86db02149bfa41cc31c83d59faca7b551",
+      "size": 15239,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link16_R.STL",
+      "sha": "0cf0f8d1d9940fe4df85ad7362ea1e5fe447cba5",
+      "size": 335484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link16_R.STL.convex.stl",
+      "sha": "29915891bec8dcd1c6a9f77c68675927b08029f2",
+      "size": 15144,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link17_L.STL",
+      "sha": "8f0aca60e276609a2cb26241af2cce6e50a4b0e4",
+      "size": 407184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link17_L.STL.convex.stl",
+      "sha": "2d8b7ae191da3b77008754976b994303f36b767c",
+      "size": 15161,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link17_R.STL",
+      "sha": "3f630a3034b54e87fe7d8ef31e69e790808ae30a",
+      "size": 411884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link17_R.STL.convex.stl",
+      "sha": "d2327d5a94615dbc05d3eebe9b5976e88b734213",
+      "size": 14307,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link18_L.STL",
+      "sha": "c498cd75cf11e77e1f7bb45a281d497b9ab8991d",
+      "size": 182684,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link18_L.STL.convex.stl",
+      "sha": "aa109fa30769c55ceccb28f607410a42425f13da",
+      "size": 14816,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link18_R.STL",
+      "sha": "ebc2616fd29e00ebae9443177e8c8a5416680a72",
+      "size": 182984,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link18_R.STL.convex.stl",
+      "sha": "3b16fa2fb65b6f600d7fea84d1e197f82af2b294",
+      "size": 14726,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link19_L.STL",
+      "sha": "c3cabb9268c4e896179deac2df0e82c61aa33c45",
+      "size": 407184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link19_L.STL.convex.stl",
+      "sha": "c2e5dae7080385e811f546cdb49397c6a688f017",
+      "size": 15169,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link19_R.STL",
+      "sha": "5c3703ec21f9e59fb6ca799952b8892789262197",
+      "size": 411884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link19_R.STL.convex.stl",
+      "sha": "d2327d5a94615dbc05d3eebe9b5976e88b734213",
+      "size": 14307,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link20_L.STL",
+      "sha": "23c4efa5ac2b0bf45d3deff1d3c9bc0f41985652",
+      "size": 329484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link20_L.STL.convex.stl",
+      "sha": "7cc68a4c42e8a39e98e15a59f00e8a8df2fba216",
+      "size": 15247,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link20_R.STL",
+      "sha": "5fed852fb99f8dd6fd1a834072dd4ef6cfa52590",
+      "size": 334784,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link20_R.STL.convex.stl",
+      "sha": "a957587846733c99e4e24fd25ee29622bd2cc018",
+      "size": 15164,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link21_L.STL",
+      "sha": "ccb63bfc6b35d7ad46e7ea0444c694137dc70cf1",
+      "size": 407184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link21_L.STL.convex.stl",
+      "sha": "800f2f797ccd60a02ea6031e7227285437f2f886",
+      "size": 15169,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link21_R.STL",
+      "sha": "d4710f126083ab138a82f0b52f27c02d107c79b9",
+      "size": 411884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link21_R.STL.convex.stl",
+      "sha": "d2327d5a94615dbc05d3eebe9b5976e88b734213",
+      "size": 14307,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link22_L.STL",
+      "sha": "6b9cdaddf4876c9bcce9a20d53b90b65aeee1ddd",
+      "size": 413384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link22_L.STL.convex.stl",
+      "sha": "8b3908ee2b0774958414b678fabdd098745296dd",
+      "size": 16533,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link22_R.STL",
+      "sha": "c2cf58b3d22f64adc41934b2d4c2d13f1b0dc3e4",
+      "size": 416484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/Link22_R.STL.convex.stl",
+      "sha": "f3bd51b7ae7fe110040aff5e0746f1cd6175e022",
+      "size": 16418,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/R_hand_base_link.STL",
+      "sha": "3478a981c4c0c6177e624cc14b3a30280da13590",
+      "size": 1472384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/R_hand_base_link.STL.convex.stl",
+      "sha": "fb48c1274fc4dc3e466c00a9bcb6b7db73f94a51",
+      "size": 39719,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_ankle_pitch_link.STL",
+      "sha": "827fb2cba13025cdfa2b2f428dbdd0f88e9ebf24",
+      "size": 34084,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_ankle_roll_link.STL",
+      "sha": "83e7de14666ec39325e1f195313f2ee50f8f117b",
+      "size": 829884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_elbow_pitch_link.STL",
+      "sha": "47ae65c7074a2678656900895896d94c132a78c2",
+      "size": 1025584,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_elbow_roll_link.STL",
+      "sha": "112437b44a897ac1ad16d01b07c6654869d2b4e1",
+      "size": 1243084,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_hand_link.STL",
+      "sha": "6ce2dcf6e79ec4e814ff262c89cfaeab4722f09b",
+      "size": 147684,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_hip_pitch_link.STL",
+      "sha": "e5898ab498d663eeaf261daae7b9beb9ac37d843",
+      "size": 452384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_hip_roll_link.STL",
+      "sha": "5ade02bc0c560abaddfbf952589ec59891fa346e",
+      "size": 769284,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_hip_yaw_link.STL",
+      "sha": "3bcc4b8730b10e12c9be3d8b2b9b3409980221c5",
+      "size": 885884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_knee_link.STL",
+      "sha": "e470aee7768bf96f44334128c3084bc4178be2bc",
+      "size": 451384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_shoulder_pitch_link.STL",
+      "sha": "be81370b2252d2e6b1799828d7c45db91442b867",
+      "size": 787484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_shoulder_roll_link.STL",
+      "sha": "a59bb640fdbd932c6eba299ef5d3ed63994ea524",
+      "size": 903384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_shoulder_yaw_link.STL",
+      "sha": "01d3c75b2246df403f5d4a81b034067b58952107",
+      "size": 644184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/left_wrist_pitch_link.STL",
+      "sha": "83d6d87da2869a3625d51cc4d4e71382be9d9671",
+      "size": 630184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/logo_link.STL",
+      "sha": "c396d51d80a93035ed399e4762de83ba2c2d0874",
+      "size": 145484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/pelvis.STL",
+      "sha": "05e5512c79bbee0a324d401b1bfd40441b660c94",
+      "size": 672884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_ankle_pitch_link.STL",
+      "sha": "827fb2cba13025cdfa2b2f428dbdd0f88e9ebf24",
+      "size": 34084,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_ankle_roll_link.STL",
+      "sha": "83e7de14666ec39325e1f195313f2ee50f8f117b",
+      "size": 829884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_elbow_pitch_link.STL",
+      "sha": "360fb7f05c2eca8eb06abbb60a712a45edde7f11",
+      "size": 1025384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_elbow_roll_link.STL",
+      "sha": "5f7f2283e173570acacce600370872ab161cbfcd",
+      "size": 1242984,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_hand_link.STL",
+      "sha": "6ce2dcf6e79ec4e814ff262c89cfaeab4722f09b",
+      "size": 147684,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_hip_pitch_link.STL",
+      "sha": "1d4e515c1479609d2fb7c17fd2069a6d2487dd6d",
+      "size": 452384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_hip_roll_link.STL",
+      "sha": "d2a0af9bb69888d159134451dd1c3fc5075689c8",
+      "size": 768484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_hip_yaw_link.STL",
+      "sha": "6c8ffd59e6b80a710b7770248e357788b04059f9",
+      "size": 884484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_knee_link.STL",
+      "sha": "e470aee7768bf96f44334128c3084bc4178be2bc",
+      "size": 451384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_shoulder_pitch_link.STL",
+      "sha": "f77ab2b8b8a67d83c8960df0a75479f5b8471fa9",
+      "size": 788484,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_shoulder_roll_link.STL",
+      "sha": "a98398f9edcef9fd01ed91c3304e7610e5ab08e7",
+      "size": 908284,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_shoulder_yaw_link.STL",
+      "sha": "7943bab36d5f85416942ea4e682ca6453612b4b7",
+      "size": 646884,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/right_wrist_pitch_link.STL",
+      "sha": "f21d1f028e9552c863a46ab9e90b2ce3a461e10c",
+      "size": 630184,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/torso_link.STL",
+      "sha": "649d870e723c8143ef75db93afd7cfb9c56176ca",
+      "size": 2340384,
+      "mode": "100644"
+    },
+    {
+      "path": "assets/inspire_hand/meshes/wrist_yaw_link.STL",
+      "sha": "eaff5db116c4cbb700077ca3ca107217109e62cc",
+      "size": 224484,
+      "mode": "100644"
+    },
+    {
+      "path": "img/UCSanDiegoLogo-BlueGold.png",
+      "sha": "bd02a614bc691e581439eb5520883fdee95a01bf",
+      "size": 18460,
+      "mode": "100644"
+    },
+    {
+      "path": "img/logo.png",
+      "sha": "f9cfea719768cbf0bbd220cde9d5e23757425580",
+      "size": 542270,
+      "mode": "100644"
+    },
+    {
+      "path": "img/main.webp",
+      "sha": "271f20ef63b9d832973b3c6c8cc4f0f65afe019e",
+      "size": 2196432,
+      "mode": "100644"
+    },
+    {
+      "path": "img/mit-logo.png",
+      "sha": "0af8672c64a7b403948e316b7540f4c7662e8031",
+      "size": 4755,
+      "mode": "100644"
+    },
+    {
+      "path": "img/sim.png",
+      "sha": "7012a725d2939bb3348626d3ccb26a8a1e9d394c",
+      "size": 1613259,
+      "mode": "100644"
+    },
+    {
+      "path": "img/television.jpg",
+      "sha": "3e7e5ca3cc24ea3ed141bac25986210412e2e684",
+      "size": 235354,
+      "mode": "100644"
+    },
+    {
+      "path": "requirements.txt",
+      "sha": "36c9e5f8932e32f28319bc19eb8cfd8e3e3adbff",
+      "size": 468,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/deploy_sim.py",
+      "sha": "294661a7fa63700c7d49585420163565a6269e19",
+      "size": 5361,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/plot_action.py",
+      "sha": "28cecf41853fb39989a398ee0ff59bbcb5c283ee",
+      "size": 790,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/post_process.py",
+      "sha": "35c6f3b87f8246ca1351e3346005b1ff0ffe145d",
+      "size": 7771,
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/replay_demo.py",
+      "sha": "02752302788ceacb174cd73f229d526c769fa0c5",
+      "size": 5963,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/Preprocessor.py",
+      "sha": "366a427d7de0805f48f83688def9e1aee9ce0252",
+      "size": 3780,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/TeleVision.py",
+      "sha": "2e1f5896108c2d589f952edd301c3880528a6f9e",
+      "size": 10679,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/constants_vuer.py",
+      "sha": "80f9c38799eb01e757bb6fb28789e5f19e74b5e4",
+      "size": 386,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/dynamixel/active_cam.py",
+      "sha": "53c22cf41e25cdf8fe1f92ae6d6fc40653b27c33",
+      "size": 3538,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/dynamixel/agent.py",
+      "sha": "fa8bff79ec0a8fc22652f5ebc52f914eff51c40d",
+      "size": 1216,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/dynamixel/driver.py",
+      "sha": "dc189c219ed2d73403b2b7f7052e6e3f339d7723",
+      "size": 9643,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/dynamixel/dynamixel_robot.py",
+      "sha": "5f5ddddedf70bd4ea916c3cfeef9bd2d49fee5d6",
+      "size": 5731,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/dynamixel/robot.py",
+      "sha": "b4a6e967d2eda74b697825b2f833351e8d8a8ec8",
+      "size": 3793,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/inspire_hand.yml",
+      "sha": "7cd588840fc6dadf6dc635ebc1182e7bbf42cf26",
+      "size": 1666,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/motion_utils.py",
+      "sha": "fc68166a62dda4c85d1177addc3422fdacd5c280",
+      "size": 273,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/teleop_active_cam.py",
+      "sha": "69952eb44a80807cad5d427f46598ccf32bbc8f6",
+      "size": 3059,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/teleop_hand.py",
+      "sha": "0589a219260338dd53d3877cd153bb79eec1c782",
+      "size": 12224,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/webrtc/client.js",
+      "sha": "b4e8c6cce5fab0c6ef2abbe8b0241ce04f04f6fc",
+      "size": 2261,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/webrtc/index.html",
+      "sha": "159ff997fb84748ff11016e35d260e91fd250986",
+      "size": 843,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/webrtc/orig_webcam_example.py",
+      "sha": "a486be1550ed19f068e42b4c59bacb426628a9d0",
+      "size": 5124,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/webrtc/webcam.py",
+      "sha": "b95c0f6092ffdcf7d7a02f936ab2079cdaa0b1e9",
+      "size": 6629,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/webrtc/webcam_server.py",
+      "sha": "8b5c49c5fb85d36cf60f183354a96427eb1a8e8f",
+      "size": 6489,
+      "mode": "100644"
+    },
+    {
+      "path": "teleop/webrtc/zed_server.py",
+      "sha": "b036168a1d403004300064e88d01b6f04ae50007",
+      "size": 6672,
+      "mode": "100644"
+    }
+  ],
+  "gitlinks": [],
+  "license": "NOASSERTION",
+  "folder": "projects/TeleVision",
+  "file_count": 237,
+  "bytes": 72150085,
+  "lfs_pointers": []
+}

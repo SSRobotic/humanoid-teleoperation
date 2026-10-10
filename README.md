@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">🎮 Teleoperation</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-3-f28c28?style=flat-square" alt="3 curated resources"></a>
@@ -25,6 +25,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [Unitree XR Teleoperation](https://github.com/unitreerobotics/xr_teleoperate) | XR-device teleoperation interfaces for Unitree humanoid workflows. | Unitree, XR, Teleoperation | [unitreerobotics](https://github.com/unitreerobotics/xr_teleoperate) |
 | [Open TeleVision](https://github.com/OpenTeleVision/TeleVision) | Immersive teleoperation research with visual feedback. | Teleoperation, XR, Research | [OpenTeleVision](https://github.com/OpenTeleVision/TeleVision) |
 | [Human2Humanoid / OmniH2O](https://github.com/LeCAR-Lab/human2humanoid) | Human-to-humanoid whole-body teleoperation and learning research. | Humanoid, Teleoperation, Whole-body | [LeCAR-Lab](https://github.com/LeCAR-Lab/human2humanoid) |
+
+## 📦 Code & models in this repository
+
+**237 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [OpenTeleVision/TeleVision](projects/TeleVision) | 237 | [`e6e25afdb16c`](https://github.com/OpenTeleVision/TeleVision/tree/e6e25afdb16c1b326b5bf37bd0ae79919bf79f26) | [LICENSE](projects/TeleVision/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-teleoperation.git
+cd humanoid-teleoperation
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
 
 ## 🚀 Start here
 

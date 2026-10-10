@@ -1,0 +1,22 @@
+{
+  "repository": "humanoid-teleoperation",
+  "url": "https://github.com/SSRobotic/humanoid-teleoperation",
+  "projects": [
+    {
+      "slug": "OpenTeleVision/TeleVision",
+      "source_url": "https://github.com/OpenTeleVision/TeleVision",
+      "commit": "e6e25afdb16c1b326b5bf37bd0ae79919bf79f26",
+      "branch": "main",
+      "snapshot": "all tracked file blobs at the pinned commit",
+      "gitlinks": [],
+      "license": "NOASSERTION",
+      "folder": "projects/TeleVision",
+      "file_count": 237,
+      "bytes": 72150085,
+      "lfs_pointers": []
+    }
+  ],
+  "source_file_count": 237,
+  "lfs_pointer_count": 0,
+  "materialized_file_count": 237
+}

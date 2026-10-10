@@ -39,7 +39,15 @@
     "url": "https://github.com/OpenTeleVision/TeleVision",
     "upstream": "https://github.com/OpenTeleVision/TeleVision",
     "license": "NOASSERTION",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-teleoperation",
+        "url": "https://github.com/SSRobotic/humanoid-teleoperation/tree/main/projects/TeleVision",
+        "commit": "e6e25afdb16c1b326b5bf37bd0ae79919bf79f26",
+        "fileCount": 237
+      }
+    ]
   },
   {
     "id": "LeCAR-Lab-human2humanoid",
